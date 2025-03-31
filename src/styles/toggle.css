@@ -1,0 +1,21 @@
+#toggle{
+    height: 3rem;
+    width: 7rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 0.1rem;
+    color: var(--toggle-btn-color);
+    background-color: var(--nav-background-color);
+    backdrop-filter: blur(20px);
+    border: 1.5px solid var(--nav-border);
+    box-shadow: 0 4px 10px var(--nav-shadow);
+}
+
+.toggle-btn{
+    color: var(--toggle-btn-color);
+    background-color: transparent;
+    border: none;
+}
+

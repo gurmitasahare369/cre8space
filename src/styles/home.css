@@ -1,0 +1,17 @@
+.homepage{
+    position: relative;
+    transition: filter 0.3s ease-in-out;
+}
+
+#home-toggle{
+    position: absolute;
+    height: 3rem;
+    width: 6rem;
+    /* background-color: brown; */
+    bottom: -50%;
+    left: 8%;
+} 
+
+.homepage.blur {
+    filter: blur(8px); /* Apply blur when modal is open */
+  }

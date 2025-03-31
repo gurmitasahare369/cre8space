@@ -1,0 +1,113 @@
+#edit-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#edit-profile-page{
+    position: absolute;
+    height: 40rem;
+    width: 50rem;
+    top: 3.8%;
+    background-color: var(--nav-background-color);
+    border: 1.5px solid var(--nav-border);
+    box-shadow: 0 4px 10px var(--nav-shadow);
+    display: flex;
+    justify-content: space-between;
+}
+
+#edit-sidebar{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    border-right: 1.5px solid var(--nav-border);
+    border-right: 1.5px solid gray;
+    /* background-color: tomato; */
+}
+
+#edit-tabs{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: thistle; */
+}
+
+#tab-options{
+    height: 70%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    /* background-color: #f0f0f0; */
+}
+
+#tab-options button{
+    height: 2.8rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    border: none;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+
+
+#tab-footer{
+    height: 20%;
+    width: 95%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    /* background-color: aquamarine; */
+}
+
+
+#edit-content{
+    height: auto;
+    width: 67%;
+    /* background-color: teal; */
+}
+
+#edit-nav{
+    height: 3.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 2rem;
+    /* background-color: blanchedalmond; */
+}
+
+#tab-name{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-top: 0.6rem;
+    /* background-color: violet; */
+}
+
+#edit-nav button{
+    /* position: absolute; */
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.2rem;
+    background: transparent;
+    border: none;
+}
+

@@ -1,0 +1,60 @@
+#profile-content-page{
+    height: 36rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.7rem 0.5rem;
+}
+
+#profile-form{
+    height: 80%;
+    width: 98%;
+    padding: 0.5rem 0.7rem;
+    line-height: 2rem;
+}
+
+.profile-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-input input{
+    padding: 0.6rem;
+    font-size: 1rem;
+    background: transparent;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 20px;
+    color: rgb(76, 75, 75);
+    margin-bottom: 0.6rem;
+}
+
+.profile-input label{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-left: 0.3rem;
+}
+
+#edit-bio{
+    resize: none;
+    height: 7rem;
+    border-radius: 20px;
+    background: transparent;
+    outline: none;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    color: rgb(76, 75, 75);
+}
+
+#profile-content-page button{
+    position: absolute;
+    bottom: 4rem;
+    right: 1.9rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    height: 2.5rem;
+    width: 3.5rem;
+    background-color: var(--nav-btn-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    border: none;
+}

@@ -1,0 +1,29 @@
+#sidebar{
+    height: 20rem;
+    width: 17rem;
+    /* text-align: center; */
+    margin-top: 2rem;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: var(--nav-background-color);
+    backdrop-filter: blur(20px);
+    border: 1.5px solid var(--nav-border);
+    box-shadow:  0 4px 15px var(--nav-shadow);
+}
+
+#inner{
+    width: 70%;
+    /* background-color: brown; */
+    padding: 1rem;
+
+}
+
+#inner a{
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
